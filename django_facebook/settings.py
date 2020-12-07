@@ -12,7 +12,7 @@ SECRET_KEY = '0ym*69+24w-7m=88)^@ihpz+@2j^9c+&#r(+if=yql)5+!$apf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
