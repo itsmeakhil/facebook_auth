@@ -1,1 +1,1 @@
-web: gunicorn 'django_facebook.wsgi
+web: gunicorn django_facebook.wsgi
