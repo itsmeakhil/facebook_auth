@@ -77,8 +77,8 @@ DATABASES = {
     }
 }
 
-SOCIAL_AUTH_FACEBOOK_KEY = '742358609959423'  # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = 'a94cf71393f71b9fdec6a0ceea518767'  # app key
+SOCIAL_AUTH_FACEBOOK_KEY = '742358609959423'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'a94cf71393f71b9fdec6a0ceea518767'
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -97,7 +97,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Internationalization
-# https://docs.djangoproject.com/en/3.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
@@ -110,7 +109,6 @@ USE_L10N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
